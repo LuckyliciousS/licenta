@@ -4,7 +4,7 @@ const port = 3000
 
 app.get('/', (req, res) => {
 
-  res.send('Template server for NodeJS is online')
+  res.send('Template server for NodeJS is online but has some new attributes')
 })
 
 app.listen(port, () => {
